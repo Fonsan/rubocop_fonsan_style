@@ -39,7 +39,7 @@ Capybara/SpecificFinders: # new in 2.13
   Enabled: true
 Capybara/MatchStyle: # new in <<next>>
   Enabled: true
-RSpec/Capybara/SpecificMatcher: # new in 2.12
+Capybara/SpecificMatcher: # new in 2.12
   Enabled: true
 RSpec/FactoryBot/ConsistentParenthesesStyle: # new in 2.14
   Enabled: true
