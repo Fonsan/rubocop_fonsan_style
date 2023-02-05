@@ -9,6 +9,7 @@ gemfile(true, quiet: true) do
   gem 'rubocop-rake', '~> 0.6.0'
   gem 'rubocop-rspec', '~> 2.18'
   gem 'rubocop-rubycw', '~> 0.1'
+  gem 'haml_lint', '~> 0.45'
 end
 require 'rubocop'
 RuboCop::CLI.new.run
