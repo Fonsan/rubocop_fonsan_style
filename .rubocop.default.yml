@@ -72,7 +72,7 @@ Layout/SpaceInsideBlockBraces:
   SpaceBeforeBlockParameters: false
 Layout/SpaceInsideHashLiteralBraces:
   EnforcedStyle: no_space
-Lint/UselessRescue: # new in 1.43
+Lint/UselessRescue:
   Enabled: true
 Lint/AmbiguousAssignment:
   Enabled: true
@@ -256,19 +256,19 @@ Security/CompoundHash:
   Enabled: true
 Security/IoMethods:
   Enabled: true
-Style/RedundantDoubleSplatHashBraces: # new in 1.41
+Style/RedundantDoubleSplatHashBraces:
   Enabled: true
-Style/RedundantConstantBase: # new in 1.40
+Style/RedundantConstantBase:
   Enabled: true
-Style/MinMaxComparison: # new in 1.42
+Style/MinMaxComparison:
   Enabled: true
-Style/MapToSet: # new in 1.42
+Style/MapToSet:
   Enabled: true
-Style/ComparableClamp: # new in 1.44
+Style/ComparableClamp:
   Enabled: true
-Style/ArrayIntersect: # new in 1.40
+Style/ArrayIntersect:
   Enabled: true
-Style/ConcatArrayLiterals: # new in 1.41
+Style/ConcatArrayLiterals:
   Enabled: true
 Style/AccessorGrouping:
   Enabled: true
@@ -318,9 +318,9 @@ Style/FrozenStringLiteralComment:
   Enabled: false
 Style/GlobalStdStream:
   Enabled: true
-Style/RedundantInitialize: # new in 1.27
+Style/RedundantInitialize:
   Enabled: true
-Style/RedundantStringEscape: # new in 1.37
+Style/RedundantStringEscape:
   Enabled: true
 Style/HashAsLastArrayItem:
   Enabled: true
