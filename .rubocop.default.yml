@@ -6,6 +6,8 @@ Gemspec/DeprecatedAttributeAssignment:
   Enabled: true
 Gemspec/RequireMFA:
   Enabled: true
+Gemspec/DevelopmentDependencies:
+  Enabled: true
 Layout/ArgumentAlignment:
   EnforcedStyle: with_fixed_indentation
 Layout/ArrayAlignment:
@@ -70,6 +72,8 @@ Layout/SpaceInsideBlockBraces:
   SpaceBeforeBlockParameters: false
 Layout/SpaceInsideHashLiteralBraces:
   EnforcedStyle: no_space
+Lint/UselessRescue: # new in 1.43
+  Enabled: true
 Lint/AmbiguousAssignment:
   Enabled: true
 Lint/AmbiguousOperatorPrecedence:
@@ -251,6 +255,20 @@ Performance/Sum:
 Security/CompoundHash:
   Enabled: true
 Security/IoMethods:
+  Enabled: true
+Style/RedundantDoubleSplatHashBraces: # new in 1.41
+  Enabled: true
+Style/RedundantConstantBase: # new in 1.40
+  Enabled: true
+Style/MinMaxComparison: # new in 1.42
+  Enabled: true
+Style/MapToSet: # new in 1.42
+  Enabled: true
+Style/ComparableClamp: # new in 1.44
+  Enabled: true
+Style/ArrayIntersect: # new in 1.40
+  Enabled: true
+Style/ConcatArrayLiterals: # new in 1.41
   Enabled: true
 Style/AccessorGrouping:
   Enabled: true
