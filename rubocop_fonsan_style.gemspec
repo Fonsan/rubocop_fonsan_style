@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.description = 'An opionated rubocop style'
   spec.homepage = 'https://github.com/Fonsan/rubocop_fonsan_style'
   spec.license = 'MIT'
-  spec.required_ruby_version = '>= 2.6.0'
+  spec.required_ruby_version = '>= 2.7.0'
 
   spec.metadata['homepage_uri'] = spec.homepage
   spec.metadata['source_code_uri'] = spec.homepage
@@ -30,12 +30,12 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   # Uncomment to register a new dependency of your gem
-  spec.add_dependency 'haml_lint', '~> 0.45'
-  spec.add_dependency 'rubocop', '~> 1.44'
-  spec.add_dependency 'rubocop-performance', '~> 1.15'
-  spec.add_dependency 'rubocop-rails', '~> 2.17'
+  spec.add_dependency 'haml_lint', '~> 0.51'
+  spec.add_dependency 'rubocop', '~> 1.57'
+  spec.add_dependency 'rubocop-performance', '~> 1.19'
+  spec.add_dependency 'rubocop-rails', '~> 2.21'
   spec.add_dependency 'rubocop-rake', '~> 0.6.0'
-  spec.add_dependency 'rubocop-rspec', '~> 2.18'
+  spec.add_dependency 'rubocop-rspec', '~> 2.24'
   spec.add_dependency 'rubocop-rubycw', '~> 0.1'
 
   # For more information and examples about making a new gem, check out our

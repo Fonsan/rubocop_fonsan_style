@@ -1,6 +1,17 @@
 require:
   - rubocop-rails
 
+
+Rails/UnusedRenderContent: # new in 2.21
+  Enabled: true
+Rails/ThreeStateBooleanColumn: # new in 2.19
+  Enabled: true
+Rails/ResponseParsedBody: # new in 2.18
+  Enabled: true
+Rails/RedundantActiveRecordAllMethod: # new in 2.21
+  Enabled: true
+Rails/DangerousColumnNames: # new in 2.21
+  Enabled: true
 Rails/AddColumnIndex: # new in 2.11
   Enabled: true
 Rails/AttributeDefaultBlockValue: # new in 2.9
