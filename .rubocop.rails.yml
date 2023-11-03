@@ -1,7 +1,8 @@
 require:
   - rubocop-rails
 
-
+Rails/EnvLocal: # new in 2.22
+  Enabled: true
 Rails/UnusedRenderContent: # new in 2.21
   Enabled: true
 Rails/ThreeStateBooleanColumn: # new in 2.19
