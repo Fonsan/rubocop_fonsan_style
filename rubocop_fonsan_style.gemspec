@@ -29,13 +29,11 @@ Gem::Specification.new do |spec|
   spec.executables = spec.files.grep(%r{\Aexe/}) {|f| File.basename(f) }
   spec.require_paths = ['lib']
 
-  # Uncomment to register a new dependency of your gem
-  spec.add_dependency 'haml_lint', '~> 0.51'
-  spec.add_dependency 'rubocop', '~> 1.57'
+  spec.add_dependency 'haml_lint', '~> 0.52'
+  spec.add_dependency 'rubocop', '~> 1.59'
   spec.add_dependency 'rubocop-performance', '~> 1.19'
-  spec.add_dependency 'rubocop-rails', '~> 2.21'
-  spec.add_dependency 'rubocop-rake', '~> 0.6.0'
-  spec.add_dependency 'rubocop-rspec', '~> 2.24'
+  spec.add_dependency 'rubocop-rails', '~> 2.22'
+  spec.add_dependency 'rubocop-rspec', '~> 2.25'
   spec.add_dependency 'rubocop-rubycw', '~> 0.1'
 
   # For more information and examples about making a new gem, check out our
