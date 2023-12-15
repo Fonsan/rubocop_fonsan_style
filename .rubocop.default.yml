@@ -454,6 +454,11 @@ Style/StringConcatenation:
   Enabled: true
 Style/StringHashKeys:
   Enabled: true
+  Exclude:
+    - 'config/environments/development.rb'
+    - 'config/environments/test.rb'
+    - 'config/environments/production.rb'
+    - 'config/routes.rb'
 Style/StringLiteralsInInterpolation:
   Enabled: false
 Style/SwapValues:
