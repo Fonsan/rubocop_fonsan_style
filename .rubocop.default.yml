@@ -73,6 +73,10 @@ Layout/SpaceInsideBlockBraces:
 Layout/SpaceInsideHashLiteralBraces:
   EnforcedStyle: no_space
 
+Lint/LiteralAssignmentInCondition: # new in 1.58
+  Enabled: false
+Lint/ItWithoutArgumentsInBlock: # new in 1.59
+  Enabled: true
 Lint/MixedCaseRange: # new in 1.53
   Enabled: true
 Lint/RedundantRegexpQuantifiers: # new in 1.53
@@ -266,6 +270,8 @@ Performance/Sum:
 Security/CompoundHash:
   Enabled: true
 Security/IoMethods:
+  Enabled: true
+Style/SuperWithArgsParentheses: # new in 1.58
   Enabled: true
 Style/DataInheritance: # new in 1.49
   Enabled: true
