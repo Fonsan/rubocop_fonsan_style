@@ -1,14 +1,13 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 require 'bundler/inline'
+
 gemfile(true, quiet: true) do
   source 'https://rubygems.org'
-  gem 'haml_lint', '~> 0.52'
-  gem 'rubocop', '~> 1.66'
-  gem 'rubocop-performance', '~> 1.22'
-  gem 'rubocop-rails', '~> 2.26'
-  gem 'rubocop-rspec', '~> 2.25'
-  gem 'rubocop-rubycw', '~> 0.1'
+  gemspec = Gem::Specification.load('rubocop_fonsan_style.gemspec')
+  gemspec.runtime_dependencies.each do |dependency|
+    gem dependency.name, dependency.requirement
+  end
 end
 require 'rubocop'
 RuboCop::CLI.new.run

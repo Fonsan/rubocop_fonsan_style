@@ -1,7 +1,8 @@
 require:
 - rubocop-performance
 - rubocop-rubycw
-
+AllCops:
+  SuggestExtensions: false
 
 Gemspec/AddRuntimeDependency: # new in 1.65
   Enabled: true
