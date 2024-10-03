@@ -1,6 +1,10 @@
 require:
   - rubocop-rails
 
+Rails/EnumSyntax: # new in 2.26
+  Enabled: true
+Rails/WhereRange: # new in 2.25
+  Enabled: true
 Rails/EnvLocal: # new in 2.22
   Enabled: true
 Rails/UnusedRenderContent: # new in 2.21

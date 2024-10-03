@@ -3,13 +3,12 @@
 require 'bundler/inline'
 gemfile(true, quiet: true) do
   source 'https://rubygems.org'
-  gem 'rubocop', '~> 1.44'
-  gem 'rubocop-performance', '~> 1.15'
-  gem 'rubocop-rails', '~> 2.17'
-  gem 'rubocop-rake', '~> 0.6.0'
-  gem 'rubocop-rspec', '~> 2.18'
+  gem 'haml_lint', '~> 0.52'
+  gem 'rubocop', '~> 1.66'
+  gem 'rubocop-performance', '~> 1.22'
+  gem 'rubocop-rails', '~> 2.26'
+  gem 'rubocop-rspec', '~> 2.25'
   gem 'rubocop-rubycw', '~> 0.1'
-  gem 'haml_lint', '~> 0.45'
 end
 require 'rubocop'
 RuboCop::CLI.new.run

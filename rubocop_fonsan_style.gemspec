@@ -30,9 +30,9 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   spec.add_dependency 'haml_lint', '~> 0.52'
-  spec.add_dependency 'rubocop', '~> 1.59'
-  spec.add_dependency 'rubocop-performance', '~> 1.19'
-  spec.add_dependency 'rubocop-rails', '~> 2.22'
+  spec.add_dependency 'rubocop', '~> 1.66'
+  spec.add_dependency 'rubocop-performance', '~> 1.22'
+  spec.add_dependency 'rubocop-rails', '~> 2.26'
   spec.add_dependency 'rubocop-rspec', '~> 2.25'
   spec.add_dependency 'rubocop-rubycw', '~> 0.1'
 
