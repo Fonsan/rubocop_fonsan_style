@@ -3,6 +3,7 @@ require:
 - rubocop-rubycw
 AllCops:
   SuggestExtensions: false
+  TargetRubyVersion: 3.0.0
 
 Gemspec/AddRuntimeDependency: # new in 1.65
   Enabled: true
@@ -359,6 +360,9 @@ Style/EmptyHeredoc:
   Enabled: true
 Style/EndlessMethod:
   Enabled: true
+  EnforcedStyle: allow_always
+Style/SingleLineMethods:
+  Enabled: true
 Style/EnvHome:
   Enabled: true
 Style/ExplicitBlockArgument:
@@ -435,6 +439,8 @@ Style/QuotedSymbols:
   Enabled: true
 Style/RedundantArgument:
   Enabled: true
+Style/StringLiterals:
+  Enabled: false
 Style/RedundantAssignment:
   Enabled: true
 Style/RedundantEach:
@@ -467,12 +473,7 @@ Style/StringChars:
 Style/StringConcatenation:
   Enabled: true
 Style/StringHashKeys:
-  Enabled: true
-  Exclude:
-    - 'config/environments/development.rb'
-    - 'config/environments/test.rb'
-    - 'config/environments/production.rb'
-    - 'config/routes.rb'
+  Enabled: false
 Style/StringLiteralsInInterpolation:
   Enabled: false
 Style/SwapValues:
