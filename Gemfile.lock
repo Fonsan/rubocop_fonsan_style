@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    rubocop_fonsan_style (0.1.5)
+    rubocop_fonsan_style (0.1.6)
       haml_lint (~> 0.52)
       rubocop (~> 1.66)
       rubocop-performance (~> 1.22)
