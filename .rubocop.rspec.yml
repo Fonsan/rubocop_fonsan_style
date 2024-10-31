@@ -1,10 +1,6 @@
 require:
   - rubocop-rspec
 
-Capybara/RedundantWithinFind: # new in 2.20
-  Enabled: true
-FactoryBot/ExcessiveCreateList: # new in 2.25
-  Enabled: true
 RSpec/EmptyOutput: # new in 2.29
   Enabled: true
 RSpec/ExpectInLet: # new in 2.30
@@ -29,8 +25,6 @@ RSpec/IdenticalEqualityAssertion: # new in 2.4
   Enabled: true
 RSpec/SubjectDeclaration: # new in 2.5
   Enabled: true
-RSpecRails/AvoidSetupHook: # new in 2.4
-  Enabled: true
 RSpec/StubbedMock: # (new in 1.44)
   Enabled: true
 RSpec/MultipleMemoizedHelpers:
@@ -47,25 +41,7 @@ RSpec/SortMetadata: # new in 2.14
   Enabled: true
 RSpec/VerifiedDoubleReference: # new in 2.10.0
   Enabled: true
-Capybara/NegationMatcher: # new in 2.14
-  Enabled: true
-Capybara/SpecificActions: # new in 2.14
-  Enabled: true
-Capybara/SpecificFinders: # new in 2.13
-  Enabled: true
-Capybara/MatchStyle: # new in <<next>>
-  Enabled: true
-Capybara/SpecificMatcher: # new in 2.12
-  Enabled: true
-Capybara/ClickLinkOrButtonStyle: # new in 2.19
-  Enabled: true
-Capybara/RSpec/HaveSelector: # new in 2.19
-  Enabled: true
-Capybara/RSpec/PredicateMatcher: # new in 2.19
-  Enabled: true
-RSpecRails/HaveHttpStatus: # new in 2.12
-  Enabled: true
-RSpecRails/InferredSpecType: # new in 2.14
+RSpec/PredicateMatcher: # new in 2.19
   Enabled: true
 RSpec/NamedSubject:
   Enabled: false
@@ -103,24 +79,5 @@ RSpec/SpecFilePathFormat: # new in 2.24
   Enabled: true
 RSpec/SpecFilePathSuffix: # new in 2.24
   Enabled: true
-RSpecRails/NegationBeValid: # new in 2.23
-  Enabled: true
-RSpecRails/TravelAround: # new in 2.19
-  Enabled: true
-RSpecRails/MinitestAssertions: # new in 2.17
-  Enabled: true
-
-FactoryBot/SyntaxMethods: # new in 2.7
-  Enabled: true
-FactoryBot/ConsistentParenthesesStyle: # new in 2.14
-  Enabled: true
-FactoryBot/FactoryNameStyle: # new in 2.16
-  Enabled: true
-FactoryBot/AssociationStyle: # new in 2.23
-  Enabled: true
-FactoryBot/FactoryAssociationWithStrategy: # new in 2.23
-  Enabled: true
-FactoryBot/IdSequence: # new in <<next>>
-  Enabled: true
-FactoryBot/RedundantFactoryOption: # new in 2.23
+RSpec/StringAsInstanceDoubleConstant: # new in 3.1
   Enabled: true

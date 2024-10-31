@@ -87,7 +87,10 @@ Layout/SpaceInsideBlockBraces:
   SpaceBeforeBlockParameters: false
 Layout/SpaceInsideHashLiteralBraces:
   EnforcedStyle: no_space
-
+Lint/DuplicateSetElement: # new in 1.67
+  Enabled: true
+Lint/UnescapedBracketInRegexp: # new in 1.68
+  Enabled: true
 Lint/LiteralAssignmentInCondition: # new in 1.58
   Enabled: false
 Lint/ItWithoutArgumentsInBlock: # new in 1.59
@@ -484,3 +487,13 @@ Style/TrailingCommaInArrayLiteral:
   EnforcedStyleForMultiline: consistent_comma
 Style/TrailingCommaInHashLiteral:
   EnforcedStyleForMultiline: consistent_comma
+Style/AmbiguousEndlessMethodDefinition: # new in 1.68
+  Enabled: true
+Style/BitwisePredicate: # new in 1.68
+  Enabled: true
+Style/CombinableDefined: # new in 1.68
+  Enabled: true
+Style/KeywordArgumentsMerging: # new in 1.68
+  Enabled: true
+Style/SafeNavigationChainLength: # new in 1.68
+  Enabled: true
