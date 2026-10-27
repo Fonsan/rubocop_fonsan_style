@@ -137,4 +137,4 @@ DEPENDENCIES
   rubocop_fonsan_style!
 
 BUNDLED WITH
-   2.5.16
+  4.0.11
