@@ -1,4 +1,4 @@
-require:
+plugins:
   - rubocop-rails
 
 Rails/EnumSyntax: # new in 2.26
@@ -126,4 +126,18 @@ Rails/TransactionExitStatement: # new in 2.14
 Rails/WhereMissing: # new in 2.16
   Enabled: true
 Rails/WhereNotWithMultipleConditions: # new in 2.17
+  Enabled: true
+Rails/FindByOrAssignmentMemoization: # new in 2.33
+  Enabled: false
+Rails/HttpStatusNameConsistency: # new in 2.34
+  Enabled: true
+Rails/MultipleRoutePaths: # new in 2.29
+  Enabled: true
+Rails/OrderArguments: # new in 2.33
+  Enabled: true
+Rails/RedirectBackOrTo: # new in 2.34
+  Enabled: true
+Rails/SelectMap: # new in 2.21
+  Enabled: true
+Rails/StrongParametersExpect: # new in 2.29
   Enabled: true

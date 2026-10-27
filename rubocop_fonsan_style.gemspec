@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.description = 'An opionated rubocop style'
   spec.homepage = 'https://github.com/Fonsan/rubocop_fonsan_style'
   spec.license = 'MIT'
-  spec.required_ruby_version = '>= 3.0.0'
+  spec.required_ruby_version = '>= 3.4.0'
 
   spec.metadata['homepage_uri'] = spec.homepage
   spec.metadata['source_code_uri'] = spec.homepage
@@ -29,12 +29,12 @@ Gem::Specification.new do |spec|
   spec.executables = spec.files.grep(%r{\Aexe/}) {|f| File.basename(f) }
   spec.require_paths = ['lib']
 
-  spec.add_dependency 'haml_lint', '~> 0.52'
-  spec.add_dependency 'rubocop', '~> 1.68'
-  spec.add_dependency 'rubocop-performance', '~> 1.22'
-  spec.add_dependency 'rubocop-rails', '~> 2.27'
-  spec.add_dependency 'rubocop-rspec', '~> 3.2'
-  spec.add_dependency 'rubocop-rubycw', '~> 0.1'
+  spec.add_dependency 'haml_lint', '~> 0.78'
+  spec.add_dependency 'rubocop', '~> 1.92'
+  spec.add_dependency 'rubocop-performance', '~> 1.27'
+  spec.add_dependency 'rubocop-rails', '~> 2.38'
+  spec.add_dependency 'rubocop-rspec', '~> 3.10'
+  spec.add_dependency 'rubocop-rubycw', '~> 0.2'
 
   # For more information and examples about making a new gem, check out our
   # guide at: https://bundler.io/guides/creating_gem.html
