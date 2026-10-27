@@ -6,6 +6,7 @@
 - Bump rubocop to 1.92, rubocop-performance 1.27, rubocop-rails 2.38, rubocop-rspec 3.10, rubocop-rubycw 0.2, haml_lint 0.78
 - Load extensions via `plugins:` instead of `require:`
 - Remove obsolete `RSpec/StringAsInstanceDoubleConstant` (use `RSpec/VerifiedDoubleReference`)
+- Enable `AllCops/UseProjectIndex` and depend on `rubydex` for cross-file cops (ArgumentMismatch, SuperArgumentMismatch, NameTypo, DeprecatedReference)
 - Configure all 64 new cops; disabled: `Layout/EmptyLinesAfterModuleInclusion`, `Style/OneClassPerFile`, `Rails/FindByOrAssignmentMemoization`
 
 ## [0.1.0] - 2022-11-26

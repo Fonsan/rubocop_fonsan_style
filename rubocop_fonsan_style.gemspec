@@ -35,6 +35,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'rubocop-rails', '~> 2.38'
   spec.add_dependency 'rubocop-rspec', '~> 3.10'
   spec.add_dependency 'rubocop-rubycw', '~> 0.2'
+  spec.add_dependency 'rubydex', '~> 0.4'
 
   # For more information and examples about making a new gem, check out our
   # guide at: https://bundler.io/guides/creating_gem.html

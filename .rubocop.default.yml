@@ -4,6 +4,7 @@ plugins:
 AllCops:
   SuggestExtensions: false
   TargetRubyVersion: 3.4
+  UseProjectIndex: true
 
 Gemspec/AddRuntimeDependency: # new in 1.65
   Enabled: true
