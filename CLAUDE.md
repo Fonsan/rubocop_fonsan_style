@@ -11,7 +11,7 @@ A gem that ships an opinionated, shareable RuboCop configuration. The product is
 - `bin/setup`: runs `bundle install`
 - `bundle exec rake`: the default task, which runs `spec` and then `rubocop`. CI runs this on Ruby 3.4 and 4.0 (`.github/workflows/main.yml`).
 - `bundle exec rubocop`: lints the repo with its own config (`.rubocop.yml`). Pass a path to lint a single file.
-- `bundle exec rake spec`: `spec/rubocop_fonsan_style_spec.rb` loads each shipped config and fails on removed, renamed or unknown cops and on any cop still `pending`. After a gem bump, this is how missing decisions show up.
+- `bundle exec rake spec`: `spec/rubocop_fonsan_style_spec.rb` loads each shipped config and fails on removed, renamed or unknown cops. It also merges `.rubocop.all.yml` with RuboCop's defaults and fails on any cop still `pending`, including new cops no file mentions yet. After a gem bump, this is how missing decisions show up.
 - `bin/rubocop_fonsan_style [args]`: runs RuboCop through `bundler/inline`, using only the gemspec's runtime dependencies. Use it to try the cops against another project without editing that project's Gemfile.
 - Release: bump `VERSION` in `lib/rubocop_fonsan_style/version.rb`, run `bundle install` so `Gemfile.lock` picks up the new version, then run `bundle exec rake release`. Built `*.gem` files are gitignored.
 
