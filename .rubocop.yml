@@ -1,2 +1,4 @@
 inherit_from:
   - .rubocop.all.yml
+AllCops:
+  TargetRubyVersion: 3.4
